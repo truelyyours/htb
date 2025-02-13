@@ -1,0 +1,4 @@
+Start the instance, visit the site and open the files by pressing `Ctrl + U`. You will see that there are helper files such as main.js, commands.js and game.js. Checking main.js, you will find that the checks the command that we enter as well as a "secret" option among the `availableOptions` variable.
+Go to Debugger, add a breakpoint where `availableOptions` variable is being initialed and check you will see that when the breakpoint is it, in the response that you get, you have a "secret" option avalable whose value is `Blip-blop, in a pickle with a hiccup! Shmiggity-shmack`. Enter this is the game prompt and you will get the flag!
+
+HTB{D3v3l0p3r_t00l5_4r3_b35t__t0015_wh4t_d0_y0u_Th1nk??}
